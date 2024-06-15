@@ -20,8 +20,8 @@
             {
                 return null;
             }
-
-            var newInvoice = _invoiceRepository.CreateInvoice(invoice); 
+            
+            var newInvoice = _invoiceRepository.CreateInvoice(invoice);            
 
             return newInvoice;
         }
